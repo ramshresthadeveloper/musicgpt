@@ -1,0 +1,19 @@
+.menu-item {
+    a.active::after {
+        content: "";
+        width: 15px;
+        background: #fff;
+        position: absolute;
+        height: 2px;
+        top: 105%;
+        left: 25px;
+    }
+}
+
+.rhap_container {
+    background: transparent;
+    position: relative;
+    .rhap_time {
+        display: none;
+    }
+}
